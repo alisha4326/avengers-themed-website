@@ -13,12 +13,16 @@ body{
     font-weight: 400;
 }
 
+.nav-items{
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
 .nav-items:hover{
     color: red;
     border-bottom: 1px solid red;
-    padding-bottom: 10px;;
-    font-size: x-large;
-    transition: all 0.3s ease;
+    transform: scale(1.08);
 }
 
 .back-text{
