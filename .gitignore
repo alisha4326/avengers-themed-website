@@ -1,0 +1,5 @@
+# Node dependencies
+node_modules/
+
+# Tailwind generated CSS
+src/output.css
